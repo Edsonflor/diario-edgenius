@@ -1,8 +1,3 @@
-# Código para o arquivo 7: js/ai-assistant.js
-
-Copie o seguinte código e cole no arquivo `ai-assistant.js` que você criou na pasta js:
-
-```javascript
 // Classe para o assistente de inteligência artificial
 class AIAssistant {
   constructor() {
@@ -142,6 +137,3 @@ class AIAssistant {
 
 // Instância global do assistente
 const aiAssistant = new AIAssistant();
-```
-
-Depois de colar o código, salve o arquivo e avise quando estiver pronto para o último arquivo.
