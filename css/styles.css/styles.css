@@ -91,3 +91,52 @@ table th, table td {
 .avaliacao-nome, .avaliacao-peso {
     min-width: 80px;
 }
+/* ==== NOVO DESIGN - DASHBOARD ATUALIZADA ==== */
+<!-- Atualize o CSS com estas classes -->
+<style>
+  :root {
+    --primary-blue: #1a73e8;
+    --secondary-blue: #4285f4;
+    --primary-green: #0f9d58;
+    --secondary-green: #34a853;
+    --light-bg: #f8f9fa;
+    --card-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--light-bg);
+  }
+  
+  .sidebar {
+    background: linear-gradient(180deg, var(--primary-blue), var(--secondary-blue));
+    color: white;
+  }
+  
+  .card {
+    border-radius: 12px;
+    border: none;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-stats-primary {
+    background: linear-gradient(120deg, var(--primary-blue), var(--secondary-blue));
+    color: white;
+  }
+  
+  .card-stats-success {
+    background: linear-gradient(120deg, var(--primary-green), var(--secondary-green));
+    color: white;
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-blue);
+    border: none;
+    border-radius: 6px;
+  }
+</style>
