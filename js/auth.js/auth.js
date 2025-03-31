@@ -1,11 +1,11 @@
 // Configuração do Firebase - Substitua com suas credenciais do console Firebase
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "seu-projeto.firebaseapp.com",
-  projectId: "seu-projeto",
-  storageBucket: "seu-projeto.appspot.com",
-  messagingSenderId: "seu-messaging-sender-id",
-  appId: "seu-app-id"
+  apiKey: "AIzaSyAFa94fH8_6vHKOcIr07Ys1zbS6BvPxu4A",
+  authDomain: "diario-edgenius.firebaseapp.com",
+  projectId: "diario-edgenius",
+  storageBucket: "diario-edgenius.firebasestorage.app",
+  messagingSenderId: "518611650498",
+  appId: "1:518611650498:web:b7b940aba26dea6212f85b"
 };
 
 // Inicializa o Firebase
